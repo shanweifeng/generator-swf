@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="generator-swf-core" />
+        <module name="generator-swf-maven-plugin" />
+        <module name="generator-swf-systests-common" />
+        <module name="generator-swf-systests-domtests" />
+        <module name="generator-swf-systests-mybatis3" />
+        <module name="generator-swf-systests-mybatis3-java8" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
