@@ -1,5 +1,6 @@
 package com.swf.mybatis.generator.config;
 
+import com.swf.mybatis.generator.api.CommentGenerator;
 import org.apache.maven.model.PluginConfiguration;
 
 import java.util.ArrayList;

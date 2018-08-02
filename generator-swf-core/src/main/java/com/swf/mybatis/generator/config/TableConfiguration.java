@@ -62,6 +62,7 @@ public class TableConfiguration extends PropertyHolder {
     private List<IgnoredColumnPattern> ignoredColumnPatterns = new ArrayList<>();
 
     public TableConfiguration(Context context){
-
+        super();
+        this.mapperName = context.getD
     }
 }
