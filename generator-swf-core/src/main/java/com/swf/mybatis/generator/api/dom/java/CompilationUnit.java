@@ -20,13 +20,13 @@ public interface CompilationUnit {
 
     FullyQualifiedJavaType getType();
 
-    void addImportType(FullyQualifiedJavaType importedType);
+    void addImportedType(FullyQualifiedJavaType importedType);
 
-    void addImportTypes(Set<FullyQualifiedJavaType> importedTypes);
+    void addImportedTypes(Set<FullyQualifiedJavaType> importedTypes);
 
     void addStaticImport(String staticImport);
 
-    void addStaticImports(Set<String> staticimports);
+    void addStaticImports(Set<String> staticImports);
 
     void addFileCommentLine(String commentLine);
 

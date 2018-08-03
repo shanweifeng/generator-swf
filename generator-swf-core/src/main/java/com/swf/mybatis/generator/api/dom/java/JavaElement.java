@@ -33,7 +33,7 @@ public abstract class JavaElement {
 
     public List<String> getJavaDocLines(){return javaDocLines;}
 
-    public void addJavaDocLime(String javaDocLine){
+    public void addJavaDocLine(String javaDocLine){
         javaDocLines.add(javaDocLine);
     }
 

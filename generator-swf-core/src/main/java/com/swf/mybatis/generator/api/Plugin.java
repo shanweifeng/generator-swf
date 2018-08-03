@@ -3,10 +3,10 @@ package com.swf.mybatis.generator.api;
 import com.swf.mybatis.generator.api.dom.java.Field;
 import com.swf.mybatis.generator.api.dom.java.Interface;
 import com.swf.mybatis.generator.api.dom.java.Method;
+import com.swf.mybatis.generator.api.dom.java.TopLevelClass;
 import com.swf.mybatis.generator.api.dom.xml.Document;
 import com.swf.mybatis.generator.api.dom.xml.XmlElement;
 import com.swf.mybatis.generator.config.Context;
-import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.List;
 import java.util.Properties;
@@ -31,9 +31,9 @@ public interface Plugin {
 
     List<GeneratedJavaFile> contextGenerateAdditionalJavaFiles(IntrospectedTable introspectedTable);
 
-    List<GeneratedFile> contextGenerateAdditionalXmlFiles();
+    List<GeneratedXmlFile> contextGenerateAdditionalXmlFiles();
 
-    List<GeneratedXmlFile> contextGeneratedAdditionalXmlFiles(IntrospectedTable introspectedTable);
+    List<GeneratedXmlFile> contextGenerateAdditionalXmlFiles(IntrospectedTable introspectedTable);
 
     boolean clientGenerated(Interface interfaze,TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
 
@@ -53,7 +53,7 @@ public interface Plugin {
 
     boolean clientCountByExampleMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
 
-    boolean clientDeleteByExamplMethodGenerated(Method method,TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
+    boolean clientDeleteByExampleMethodGenerated(Method method,TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
 
     boolean clientDeleteByExampleMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
 
@@ -71,11 +71,11 @@ public interface Plugin {
 
     boolean clientSelectByExampleWithBLOBsMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
 
-    boolean clientSelectByExampleBLOBsMethodGenerated(Method method,TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
-
-    boolean clientSelectByExamplWithBLOBsMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
-
     boolean clientSelectByExampleWithBLOBsMethodGenerated(Method method,TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
+
+    boolean clientSelectByExampleWithoutBLOBsMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
+
+    boolean clientSelectByExampleWithoutBLOBsMethodGenerated(Method method,TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
 
     boolean clientSelectByPrimaryKeyMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
 
@@ -105,9 +105,9 @@ public interface Plugin {
 
     boolean clientUpdateByPrimaryKeyWithoutBLOBsMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
 
-    boolean clientSelectAllMethodMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
+    boolean clientSelectAllMethodGenerated(Method method,Interface interfaze,IntrospectedTable introspectedTable);
 
-    boolean clientSelectAllMethodGenerated(Method method,ToplevelClass toplevelClass,IntrospectedTable introspectedTable);
+    boolean clientSelectAllMethodGenerated(Method method,TopLevelClass toplevelClass,IntrospectedTable introspectedTable);
 
     boolean modelFieldGenerated(Field field, TopLevelClass topLevelClass, IntrospectedColumn introspectedColumn, IntrospectedTable introspectedTable, ModelClassType modelClassType);
 
@@ -127,13 +127,13 @@ public interface Plugin {
 
     boolean sqlMapDocumentGenerated(Document document,IntrospectedTable introspectedTable);
 
-    boolean sqlmapResultMapWithoutBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
+    boolean sqlMapResultMapWithoutBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
     boolean sqlMapCountByExampleElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
     boolean sqlMapDeleteByExampleElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
-    boolean sqlMapDeleteByPrimarykeyElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
+    boolean sqlMapDeleteByPrimaryKeyElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
     boolean sqlMapExampleWhereClauseElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
@@ -153,7 +153,7 @@ public interface Plugin {
 
     boolean sqlMapSelectByExampleWithoutBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
-    boolean sqlmapSelectByExampleWithBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
+    boolean sqlMapSelectByExampleWithBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
     boolean sqlMapUpdateByExampleSelectiveElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
@@ -161,15 +161,15 @@ public interface Plugin {
 
     boolean sqlMapUpdateByExampleWithoutBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
-    boolean sqlmapUpdateByPrimaryKeySelectiveElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
+    boolean sqlMapUpdateByPrimaryKeySelectiveElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
-    boolean sqlMapUpdateByPrimaryWithBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
+    boolean sqlMapUpdateByPrimaryKeyWithBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
     boolean sqlMapUpdateByPrimaryKeyWithoutBLOBsElementGenerated(XmlElement element,IntrospectedTable introspectedTable);
 
     boolean providerGenerated(TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
 
-    boolean providerApplyWhereMethodGeneraged(Method method,TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
+    boolean providerApplyWhereMethodGenerated(Method method,TopLevelClass topLevelClass,IntrospectedTable introspectedTable);
 
     boolean providerCountByExampleMethodGenerated(Method method, TopLevelClass topLevelClass, IntrospectedTable introspectedTable);
 
@@ -179,7 +179,7 @@ public interface Plugin {
 
     boolean providerSelectByExampleWithBLOBsMethodGenerated(Method method, TopLevelClass topLevelClass, IntrospectedTable introspectedTable);
 
-    boolean providerSelectByExampleWithoutBLOBsMethodGeneragetd(Method method, TopLevelClass topLevelClass, IntrospectedTable introspectedTable);
+    boolean providerSelectByExampleWithoutBLOBsMethodGenerated(Method method, TopLevelClass topLevelClass, IntrospectedTable introspectedTable);
 
     boolean providerUpdateByExampleSelectiveMethodGenerated(Method method, TopLevelClass topLevelClass, IntrospectedTable introspectedTable);
 
@@ -187,5 +187,5 @@ public interface Plugin {
 
     boolean providerUpdateByExampleWithoutBLOBsMethodGenerated(Method method, TopLevelClass topLevelClass, IntrospectedTable introspectedTable);
 
-    boolean providerUpdateByPrimaryKeySelectiveMethhodGenerated(Method method, TopLevelClass topLevelClass, IntrospectedTable introspectedTable);
+    boolean providerUpdateByPrimaryKeySelectiveMethodGenerated(Method method, TopLevelClass topLevelClass, IntrospectedTable introspectedTable);
 }
