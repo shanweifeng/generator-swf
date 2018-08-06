@@ -7,7 +7,7 @@ public class InvalidConfigurationException extends Exception {
 
     private List<String> errors;
 
-    private InvalidConfigurationException(List<String> errors){
+    public InvalidConfigurationException(List<String> errors){
         super();
         this.errors = errors;
     }

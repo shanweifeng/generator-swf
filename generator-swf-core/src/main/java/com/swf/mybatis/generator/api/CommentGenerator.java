@@ -1,6 +1,5 @@
 package com.swf.mybatis.generator.api;
 
-import com.google.common.collect.ImmutableMap;
 import com.swf.mybatis.generator.api.dom.java.*;
 import com.swf.mybatis.generator.api.dom.xml.XmlElement;
 
@@ -27,7 +26,7 @@ public interface CommentGenerator {
 
     void addSetterComment(Method method, IntrospectedTable introspectedTable, IntrospectedColumn introspectedColumn);
 
-    void GeneralMethodComment(Method method, IntrospectedTable introspectedTable);
+    void addGeneralMethodComment(Method method, IntrospectedTable introspectedTable);
 
     void addJavaFileComment(CompilationUnit compilationUnit);
 
@@ -35,7 +34,7 @@ public interface CommentGenerator {
 
     void addRootComment(XmlElement rootElement);
 
-    void GeneralMethodAnnotation(Method method, IntrospectedTable introspectedTable, Set<FullyQualifiedJavaType> imports);
+    void addGeneralMethodAnnotation(Method method, IntrospectedTable introspectedTable, Set<FullyQualifiedJavaType> imports);
 
     void addGeneralMethodAnnotation(Method method, IntrospectedTable introspectedTable, IntrospectedColumn introspectedColumn
     , Set<FullyQualifiedJavaType> imports);
