@@ -24,7 +24,7 @@ public class PropertyRegistry {
 
     public static final String TABLE_RUNTIME_SCHEMA = "runtimeSchema";
 
-    public static final String TABLE__RUNTIME_TABLE_NAME = "runtimeTableName";
+    public static final String TABLE_RUNTIME_TABLE_NAME = "runtimeTableName";
 
     public static final String TABLE_MODEL_ONLY = "modelOnly";
 

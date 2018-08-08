@@ -32,7 +32,7 @@ public class JavaModelGeneratorConfiguration extends PropertyHolder {
         this.targetProject = targetProject;
     }
 
-    public XmlElement toXmlelement(){
+    public XmlElement toXmlElement(){
         XmlElement anser = new XmlElement("javaModelGenerator");
         if(targetPackage != null){
             anser.addAttribute(new Attribute("targetPackage",targetPackage));

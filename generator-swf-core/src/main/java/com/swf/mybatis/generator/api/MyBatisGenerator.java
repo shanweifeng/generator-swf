@@ -4,10 +4,12 @@ import com.swf.mybatis.generator.codegen.RootClassInfo;
 import com.swf.mybatis.generator.config.Configuration;
 import com.swf.mybatis.generator.config.Context;
 import com.swf.mybatis.generator.config.MergeConstants;
+import com.swf.mybatis.generator.exception.InvalidConfigurationException;
 import com.swf.mybatis.generator.exception.ShellException;
 import com.swf.mybatis.generator.internal.DefaultShellCallback;
 import com.swf.mybatis.generator.internal.NullProgressCallback;
 import com.swf.mybatis.generator.internal.ObjectFactory;
+import com.swf.mybatis.generator.internal.XmlFileMergerJaxp;
 
 import java.io.*;
 import java.sql.SQLException;
@@ -16,6 +18,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import static com.swf.mybatis.generator.internal.util.ClassloaderUtility.getCustomClassloader;
 import static com.swf.mybatis.generator.internal.util.message.Messages.getString;
 
 public class MyBatisGenerator {
@@ -32,7 +35,8 @@ public class MyBatisGenerator {
 
     private Set<String> projects;
 
-    public MyBatisGenerator(Configuration configuration, ShellCallback shellCallback, List<String> warnings) {
+    public MyBatisGenerator(Configuration configuration, ShellCallback shellCallback, List<String> warnings)
+    throws InvalidConfigurationException {
         super();
         if (configuration == null) {
             throw new IllegalArgumentException(getString("RunTimeError.2"));
@@ -170,7 +174,7 @@ public class MyBatisGenerator {
         }
     }
 
-    private void writeGeneratedXmlFile(GeneratedJavaFile gxf, ProgressCallback callback) throws InterruptedException, IOException {
+    private void writeGeneratedXmlFile(GeneratedXmlFile gxf, ProgressCallback callback) throws InterruptedException, IOException {
         File targetFile;
         String source;
         try {
@@ -178,7 +182,7 @@ public class MyBatisGenerator {
             targetFile = new File(directory, gxf.getFileName());
             if (targetFile.exists()) {
                 if (gxf.isMMergeable()) {
-                    source = XmlFileMergerJaxp.getMergeSource)gxf, targetFile);
+                    source = XmlFileMergerJaxp.getMergedSource(gxf, targetFile);
                 } else if (shellCallback.isOverwriteEnabled()) {
                     source = gxf.getFormattedContent();
                     warnings.add(getString("Warning.11", targetFile.getAbsolutePath()));

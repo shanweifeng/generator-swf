@@ -1,6 +1,5 @@
 package com.swf.mybatis.generator.config;
 
-import com.swf.mybatis.generator.api.XmlFormatter;
 import com.swf.mybatis.generator.api.dom.xml.Attribute;
 import com.swf.mybatis.generator.api.dom.xml.Document;
 import com.swf.mybatis.generator.api.dom.xml.XmlElement;

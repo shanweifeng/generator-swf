@@ -52,7 +52,7 @@ public class JDBCConnectionConfiguration extends PropertyHolder {
         this.password = password;
     }
 
-    public XmlElement toXmlelement(){
+    public XmlElement toXmlElement(){
         XmlElement xmlElement = new XmlElement("jdbcConnection");
         xmlElement.addAttribute(new Attribute("driverClass",driverClass));
         xmlElement.addAttribute(new Attribute("connectionURL",connectionURL));
