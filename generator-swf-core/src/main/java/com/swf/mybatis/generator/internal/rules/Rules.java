@@ -19,7 +19,7 @@ public interface Rules {
 
     boolean generateDeleteByPrimaryKey();
 
-    boolean generateDeleteByEzample();
+    boolean generateDeleteByExample();
 
     boolean generateBaseResultMap();
 
@@ -29,7 +29,7 @@ public interface Rules {
 
     boolean generateMyBatis3UpdateByExampleWhereClause();
 
-    boolean generateBaseCloumnList();
+    boolean generateBaseColumnList();
 
     boolean generateBlobColumnList();
 

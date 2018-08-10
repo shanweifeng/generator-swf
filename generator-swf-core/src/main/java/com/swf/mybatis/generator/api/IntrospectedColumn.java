@@ -122,7 +122,7 @@ public abstract class IntrospectedColumn {
         this.identity = identity;
     }
 
-    public boolean isBLOBVolumn(){
+    public boolean isBLOBColumn(){
         String typeName = getJdbcTypeName();
         return "BINARY".equals(typeName) || "BLOB".equals(typeName)
                 || "CLOB".equals(typeName) || "LONGNVARCHAR".equals(typeName)

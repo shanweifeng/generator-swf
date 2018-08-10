@@ -1,8 +1,16 @@
 package com.swf.mybatis.generator.internal.util;
 
-import com.swf.mybatis.generator.api.dom.java.FullyQualifiedJavaType;
-import com.swf.mybatis.generator.api.dom.java.Method;
+import com.swf.mybatis.generator.api.IntrospectedColumn;
+import com.swf.mybatis.generator.api.IntrospectedTable;
+import com.swf.mybatis.generator.api.dom.java.*;
+import com.swf.mybatis.generator.config.Context;
+import com.swf.mybatis.generator.config.PropertyRegistry;
+import com.swf.mybatis.generator.config.TableConfiguration;
+
 import java.util.Locale;
+import java.util.Properties;
+
+import static com.swf.mybatis.generator.internal.util.StringUtility.isTrue;
 
 public class JavaBeansUtil {
     private JavaBeansUtil(){super();}
@@ -37,7 +45,7 @@ public class JavaBeansUtil {
         return sb.toString();
     }
 
-    public static String getCameCaseString(String inputString,boolean firstCharacterUppercase) {
+    public static String getCamelCaseString(String inputString,boolean firstCharacterUppercase) {
         StringBuilder sb = new StringBuilder();
         boolean nextUpperCase = false;
         for (int i = 0; i < inputString.length(); i++) {
@@ -72,7 +80,7 @@ public class JavaBeansUtil {
         return sb.toString();
     }
 
-    public static String getValidPropertyName(String inputString){
+    public static String getCamelCaseString(String inputString){
         String answer;
         if(inputString == null){
             answer = null;
@@ -90,7 +98,89 @@ public class JavaBeansUtil {
         return answer;
     }
 
-    public static Method getJavaBeansGetter(IntrospectedColumn introspectedColumn,Context context){
+    public static Method getJavaBeansGetter(IntrospectedColumn introspectedColumn, Context context,
+                                            IntrospectedTable introspectedTable){
+        FullyQualifiedJavaType fqjt = introspectedColumn.getFullyQualifiedJavaType();
+        String property = introspectedColumn.getJavaProperty();
 
+        Method method = new Method();
+        method.setVisibility(JavaVisibility.PUBLIC);
+        method.setReturnType(fqjt);
+        method.setName(getGetterMethodName(property, fqjt));
+        context.getCommentGenerator().addGetterComment(method, introspectedTable, introspectedColumn);
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("return ");
+        sb.append(property);
+        sb.append(';');
+        method.addBodyLine(sb.toString());
+        return method;
+    }
+
+    public static Field getJavaBeansField(IntrospectedColumn introspectedColumn, Context context, IntrospectedTable introspectedTable) {
+        FullyQualifiedJavaType fqjt = introspectedColumn.getFullyQualifiedJavaType();
+        String property = introspectedColumn.getJavaProperty();
+
+        Field field = new Field();
+        field.setVisibility(JavaVisibility.PRIVATE);
+        field.setType(fqjt);
+        field.setName(property);
+        context.getCommentGenerator().addFieldComment(field,introspectedTable,introspectedColumn);
+        return field;
+    }
+
+    public static Method getJavaBeansSetter(IntrospectedColumn introspectedColumn, Context context, IntrospectedTable introspectedTable) {
+        FullyQualifiedJavaType fqjt = introspectedColumn.getFullyQualifiedJavaType();
+        String property = introspectedColumn.getJavaProperty();
+
+        Method method = new Method();
+        method.setVisibility(JavaVisibility.PUBLIC);
+        method.setName(getSetterMethodName(property));
+        method.addParameter(new Parameter(fqjt,property));
+        context.getCommentGenerator().addSetterComment(method,introspectedTable,introspectedColumn);
+
+        StringBuilder sb = new StringBuilder();
+        if (introspectedColumn.isStringColumn() && isTrimStringsEnabled(introspectedColumn)) {
+            sb.append("this.");
+            sb.append(property);
+            sb.append(" = ");
+            sb.append(property);
+            sb.append(" == null ? null : ");
+            sb.append(property);
+            sb.append(".trim);");
+            method.addBodyLine(sb.toString());
+        } else {
+            sb.append("this.");
+            sb.append(property);
+            sb.append(" = ");
+            sb.append(property);
+            sb.append(";");
+            method.addBodyLine(sb.toString());
+        }
+        return method;
+    }
+
+    private static boolean isTrimStringsEnabled(Context context) {
+        Properties properties = context.getJavaModelGeneratorConfiguration().getProperties();
+        boolean rc = isTrue(properties.getProperty(PropertyRegistry.MODEL_GENERATOR_TRIM_STRINGS));
+        return rc;
+
+    }
+
+    private static boolean isTrimStringsEnabled(IntrospectedTable table) {
+        TableConfiguration tableConfiguration = table.getTableConfiguration();
+        String trimSpaces = tableConfiguration.getProperties().getProperty(PropertyRegistry.MODEL_GENERATOR_TRIM_STRINGS);
+        if (trimSpaces != null) {
+            return isTrue(trimSpaces);
+        }
+        return isTrimStringsEnabled(table.getContext());
+    }
+
+    private static boolean isTrimStringsEnabled(IntrospectedColumn column) {
+        String trimSpaces = column.getProperties().getProperty(PropertyRegistry.MODEL_GENERATOR_TRIM_STRINGS);
+        if (trimSpaces != null) {
+            return isTrue(trimSpaces);
+        }
+        return isTrimStringsEnabled(column.getIntrospectedTable());
     }
 }
