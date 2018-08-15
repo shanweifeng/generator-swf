@@ -4,7 +4,7 @@ public enum JavaVisibility {
     PUBLIC("public "),
     PRIVATE("priovate "),
     PROTECTED("protected "),
-    DEFAULT("defalt ");
+    DEFAULT("");
 
     private String value;
 

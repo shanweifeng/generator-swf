@@ -46,10 +46,6 @@ public class InitializationBlock {
         bodyLines.addAll(index,lines);
     }
 
-    /*public void setBodyLines(List<String> bodyLines) {
-        this.bodyLines = bodyLines;
-    }*/
-
     public List<String> getJavaDocLines() {
         return javaDocLines;
     }
@@ -108,8 +104,4 @@ public class InitializationBlock {
         sb.append('}');
         return sb.toString();
     }
-
-    /*public void setJavaDocLines(List<String> javaDocLines) {
-        this.javaDocLines = javaDocLines;
-    }*/
 }

@@ -3,7 +3,7 @@ package com.swf.mybatis.generator.config;
 import com.swf.mybatis.generator.api.dom.xml.Attribute;
 import com.swf.mybatis.generator.api.dom.xml.Document;
 import com.swf.mybatis.generator.api.dom.xml.XmlElement;
-import com.swf.mybatis.generator.codegen.XMLConstants;
+import com.swf.mybatis.generator.codegen.XmlConstants;
 import com.swf.mybatis.generator.exception.InvalidConfigurationException;
 
 import java.util.ArrayList;
@@ -72,7 +72,7 @@ public class Configuration {
     }
 
     public Document toDocument() {
-        Document document = new Document(XMLConstants.MYBATIS_GENERATOR_CONFIG_PUBLIC_ID,XMLConstants.MYBATIS_GENERATOR_CONFIG_SYSTEM_ID);
+        Document document = new Document(XmlConstants.MYBATIS_GENERATOR_CONFIG_PUBLIC_ID,XmlConstants.MYBATIS_GENERATOR_CONFIG_SYSTEM_ID);
         XmlElement rootElement = new XmlElement("generatorConfiguration");
         document.setRootElement(rootElement);
 

@@ -1,7 +1,7 @@
 package com.swf.mybatis.generator.codegen;
 
-public class XMLConstants {
-    private XMLConstants() {super();}
+public class XmlConstants {
+    private XmlConstants() {super();}
 
     public static final String MYBATIS3_MAPPER_SYSTEM_ID = "http://mybatis.org/dtd/mubatis-3-mapper.dtd";
 

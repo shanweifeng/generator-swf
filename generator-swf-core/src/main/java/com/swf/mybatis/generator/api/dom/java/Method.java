@@ -209,6 +209,10 @@ public class Method extends JavaElement {
         this.constructor = constructor;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -245,19 +249,27 @@ public class Method extends JavaElement {
         exceptions.add(exception);
     }
 
-    public String getName() {
-        return name;
-    }
-
     public boolean isSynchronized() {
         return isSynchronized;
+    }
+
+    public void setSynchronized(boolean aSynchronized) {
+        isSynchronized = aSynchronized;
     }
 
     public boolean isNative() {
         return isNative;
     }
 
+    public void setNative(boolean aNative) {
+        isNative = aNative;
+    }
+
     public boolean isDefault() {
         return isDefault;
+    }
+
+    public void setDefault(boolean aDefault) {
+        isDefault = aDefault;
     }
 }

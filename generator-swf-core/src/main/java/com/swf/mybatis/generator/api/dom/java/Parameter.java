@@ -39,10 +39,6 @@ public class Parameter {
         return type;
     }
 
-    public boolean isVarargs() {
-        return isVarargs;
-    }
-
     public List<String> getAnnotations() {
         return annotations;
     }
@@ -69,4 +65,8 @@ public class Parameter {
 
     @Override
     public String toString(){return getFormattedContent(null);}
+
+    public boolean isVarargs() {
+        return isVarargs;
+    }
 }

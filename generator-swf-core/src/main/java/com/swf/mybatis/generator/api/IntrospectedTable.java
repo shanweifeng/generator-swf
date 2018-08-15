@@ -90,7 +90,7 @@ public abstract class IntrospectedTable {
         internalAttributes = new HashMap<>();
     }
 
-    public FullyQualifiedTable getFullyQualifiedJTable() {
+    public FullyQualifiedTable getFullyQualifiedTable() {
         return fullyQualifiedTable;
     }
 
@@ -855,7 +855,7 @@ public abstract class IntrospectedTable {
         return isTrue(properties.getProperty(PropertyRegistry.ANY_CONSTRUCTOR_BASED));
     }
 
-    public abstract boolean requiredXMLGenerator();
+    public abstract boolean requiresXMLGenerator();
 
     public Context getContext() {
         return context;

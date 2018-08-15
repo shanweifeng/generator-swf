@@ -7,9 +7,9 @@ import java.util.TreeSet;
 
 import static com.swf.mybatis.generator.api.dom.OutputUtilities.calculateImports;
 import static com.swf.mybatis.generator.api.dom.OutputUtilities.newLine;
-import static com.swf.mybatis.generator.internal.util.StringUtility.stringHasValue;
+import static com.swf.mybatis.generator.internal.util.message.Messages.getString;
 
-public class Interface extends InnerInterface implements CompilationUnit {
+public class TopLevelEnumeration extends InnerEnum implements CompilationUnit {
 
     private Set<FullyQualifiedJavaType> importedTypes;
 
@@ -17,15 +17,52 @@ public class Interface extends InnerInterface implements CompilationUnit {
 
     private List<String> fileCommentLines;
 
-    public Interface(FullyQualifiedJavaType type){
+    public TopLevelEnumeration(FullyQualifiedJavaType type) {
         super(type);
         importedTypes = new TreeSet<>();
         fileCommentLines = new ArrayList<>();
         staticImports = new TreeSet<>();
     }
 
-    public Interface(String type){
-        this(new FullyQualifiedJavaType(type));
+    @Override
+    public String getFormattedContent() {
+        StringBuilder sb = new StringBuilder();
+
+        for (String fileCommentLine : fileCommentLines) {
+            sb.append(fileCommentLine);
+            newLine(sb);
+        }
+
+        if (getType().getPackageName() != null && getType().getPackageName().length() > 0) {
+            sb.append("package ");
+            sb.append(getType().getPackageName());
+            sb.append(';');
+            newLine(sb);
+            newLine(sb);
+        }
+
+        for (String staticImport : staticImports) {
+            sb.append("import static ");
+            sb.append(staticImport);
+            sb.append(';');
+            newLine(sb);
+        }
+
+        if (staticImports.size() > 0) {
+            newLine(sb);
+        }
+
+        Set<String> importStrings = calculateImports(importedTypes);
+        for (String importString : importStrings) {
+            sb.append(importString);
+            newLine(sb);
+        }
+
+        if (importStrings.size() > 0) {
+            newLine(sb);
+        }
+        sb.append(super.getFormattedContent(0, this));
+        return sb.toString();
     }
 
     @Override
@@ -34,57 +71,25 @@ public class Interface extends InnerInterface implements CompilationUnit {
     }
 
     @Override
+    public FullyQualifiedJavaType getSuperClass() {
+        throw new UnsupportedOperationException(getString("RuntimeError.11"));
+    }
+
+    @Override
+    public boolean isJavaInterface() {
+        return false;
+    }
+
+    @Override
+    public boolean isJavaEnumeration() {
+        return true;
+    }
+
+    @Override
     public void addImportedType(FullyQualifiedJavaType importedType) {
-        if(importedType.isExplicitlyImported() && !importedType.getPackageName().equals(getType().getPackageName())){
+        if (importedType.isExplicitlyImported() && !importedType.getPackageName().equals(getType().getPackageName())) {
             importedTypes.add(importedType);
         }
-    }
-
-    @Override
-    public String getFormattedContent() {
-        return getFormattedContent(0,this);
-    }
-
-    @Override
-    public String getFormattedContent(int indentLevel,CompilationUnit compilationUnit) {
-        StringBuilder sb = new StringBuilder();
-
-        for(String commentLine : fileCommentLines){
-            sb.append(commentLine);
-            newLine(sb);
-        }
-
-        if(stringHasValue(getType().getPackageName())){
-            sb.append("package ");
-            sb.append(getType().getPackageName());
-            sb.append(';');
-            newLine(sb);
-            newLine(sb);
-        }
-
-        for(String staticImport : staticImports){
-            sb.append("import static ");
-            sb.append(staticImport);
-            sb.append(';');
-            newLine(sb);
-        }
-
-        if(staticImports.size() > 0){
-            newLine(sb);
-        }
-
-        Set<String> importStrings = calculateImports(importedTypes);
-        for(String importString : importStrings){
-            sb.append(importString);
-            newLine(sb);
-        }
-
-        if(importStrings.size() > 0){
-            newLine(sb);
-        }
-
-        sb.append(super.getFormattedContent(0,this));
-        return sb.toString();
     }
 
     @Override
@@ -103,7 +108,7 @@ public class Interface extends InnerInterface implements CompilationUnit {
     }
 
     @Override
-    public Set<String> getStaticImport() {
+    public Set<String> getStaticImports() {
         return staticImports;
     }
 

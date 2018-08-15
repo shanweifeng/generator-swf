@@ -8,7 +8,7 @@ public interface CompilationUnit {
 
     Set<FullyQualifiedJavaType> getImportedTypes();
 
-    Set<String> getStaticImport();
+    Set<String> getStaticImports();
 
     FullyQualifiedJavaType getSuperClass();
 
