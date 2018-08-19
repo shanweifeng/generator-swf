@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e70650b2-07d1-47e6-aa68-6ddaccfa4a4d" name="Default" comment="" />
+    <list default="true" id="e70650b2-07d1-47e6-aa68-6ddaccfa4a4d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/generator-swf-core/target/" />
@@ -11,12 +17,15 @@
     <ignored path="$PROJECT_DIR$/generator-swf-systests-mybatis3-java8/target/" />
     <ignored path="$PROJECT_DIR$/generator-swf-systests-domtests/target/" />
     <ignored path="$PROJECT_DIR$/generator-swf-maven-plugin/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,182 +64,48 @@
     </expand>
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-92243752">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="generator-swf" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IntrospectedTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="248" column="5" lean-forward="true" selection-start-line="248" selection-start-column="5" selection-end-line="248" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3136#3137#0" expanded="true" />
-                <element signature="e#3181#3182#0" expanded="true" />
-                <element signature="e#3234#3235#0" expanded="true" />
-                <element signature="e#3274#3275#0" expanded="true" />
-                <element signature="e#3359#3360#0" expanded="true" />
-                <element signature="e#3399#3400#0" expanded="true" />
-                <element signature="e#3534#3535#0" expanded="true" />
-                <element signature="e#3592#3593#0" expanded="true" />
-                <element signature="e#6643#6644#0" expanded="true" />
-                <element signature="e#6682#6683#0" expanded="true" />
-                <element signature="e#6732#6733#0" expanded="true" />
-                <element signature="e#6781#6782#0" expanded="true" />
-                <element signature="e#6738#6739#0" expanded="true" />
-                <element signature="e#6772#6773#0" expanded="true" />
-                <element signature="e#7414#7415#0" expanded="true" />
-                <element signature="e#7480#7481#0" expanded="true" />
-                <element signature="e#7768#7769#0" expanded="true" />
-                <element signature="e#7802#7803#0" expanded="true" />
-                <element signature="e#7845#7846#0" expanded="true" />
-                <element signature="e#7889#7890#0" expanded="true" />
-                <element signature="e#7933#7934#0" expanded="true" />
-                <element signature="e#7977#7978#0" expanded="true" />
-                <element signature="e#8009#8010#0" expanded="true" />
-                <element signature="e#8037#8038#0" expanded="true" />
-                <element signature="e#8109#8110#0" expanded="true" />
-                <element signature="e#8144#8145#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-                <element signature="e#8302#8303#0" expanded="true" />
-                <element signature="e#8347#8348#0" expanded="true" />
-                <element signature="e#8387#8388#0" expanded="true" />
-                <element signature="e#8475#8476#0" expanded="true" />
-                <element signature="e#8521#8522#0" expanded="true" />
-                <element signature="e#9532#9533#0" expanded="true" />
-                <element signature="e#9570#9571#0" expanded="true" />
-                <element signature="e#10854#10855#0" expanded="true" />
-                <element signature="e#10890#10891#0" expanded="true" />
-                <element signature="e#10949#10950#0" expanded="true" />
-                <element signature="e#10987#10988#0" expanded="true" />
-                <element signature="e#11050#11051#0" expanded="true" />
-                <element signature="e#11081#11082#0" expanded="true" />
-                <element signature="e#13557#13558#0" expanded="true" />
-                <element signature="e#13613#13614#0" expanded="true" />
-                <element signature="e#13695#13696#0" expanded="true" />
-                <element signature="e#13729#13730#0" expanded="true" />
-                <element signature="e#14304#14305#0" expanded="true" />
-                <element signature="e#14343#14344#0" expanded="true" />
-                <element signature="e#16917#16918#0" expanded="true" />
-                <element signature="e#16957#16958#0" expanded="true" />
-                <element signature="e#17053#17054#0" expanded="true" />
-                <element signature="e#17092#17093#0" expanded="true" />
-                <element signature="e#17656#17657#0" expanded="true" />
-                <element signature="e#17696#17697#0" expanded="true" />
-                <element signature="e#19636#19637#0" expanded="true" />
-                <element signature="e#19658#19659#0" expanded="true" />
-                <element signature="e#27324#27325#0" expanded="true" />
-                <element signature="e#27358#27359#0" expanded="true" />
-                <element signature="e#27415#27416#0" expanded="true" />
-                <element signature="e#27456#27457#0" expanded="true" />
-                <element signature="e#30514#30515#0" expanded="true" />
-                <element signature="e#30550#30551#0" expanded="true" />
-                <element signature="e#31582#31583#0" expanded="true" />
-                <element signature="e#31612#31613#0" expanded="true" />
-                <element signature="e#31646#31647#0" expanded="true" />
-                <element signature="e#31676#31677#0" expanded="true" />
-                <element signature="e#31722#31723#0" expanded="true" />
-                <element signature="e#31760#31761#0" expanded="true" />
-                <element signature="e#31796#31797#0" expanded="true" />
-                <element signature="e#31828#31829#0" expanded="true" />
-                <element signature="e#31878#31879#0" expanded="true" />
-                <element signature="e#31920#31921#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RulesDelegate.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/RulesDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-                <element signature="e#1739#1740#0" expanded="true" />
-                <element signature="e#1801#1802#0" expanded="true" />
-                <element signature="e#1875#1876#0" expanded="true" />
-                <element signature="e#1925#1926#0" expanded="true" />
-                <element signature="e#2005#2006#0" expanded="true" />
-                <element signature="e#2048#2049#0" expanded="true" />
-                <element signature="e#2131#2132#0" expanded="true" />
-                <element signature="e#2158#2159#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-                <element signature="e#2479#2480#0" expanded="true" />
-                <element signature="e#2551#2552#0" expanded="true" />
-                <element signature="e#2578#2579#0" expanded="true" />
-                <element signature="e#2688#2689#0" expanded="true" />
-                <element signature="e#2753#2754#0" expanded="true" />
-                <element signature="e#2828#2829#0" expanded="true" />
-                <element signature="e#2855#2856#0" expanded="true" />
-                <element signature="e#2967#2968#0" expanded="true" />
-                <element signature="e#2997#2998#0" expanded="true" />
-                <element signature="e#3113#3114#0" expanded="true" />
-                <element signature="e#3146#3147#0" expanded="true" />
-                <element signature="e#3307#3308#0" expanded="true" />
-                <element signature="e#3357#3358#0" expanded="true" />
-                <element signature="e#3419#3420#0" expanded="true" />
-                <element signature="e#3444#3445#0" expanded="true" />
-                <element signature="e#3533#3534#0" expanded="true" />
-                <element signature="e#3587#3588#0" expanded="true" />
-                <element signature="e#3644#3645#0" expanded="true" />
-                <element signature="e#3665#3666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rules.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/Rules.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseIntrospector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/db/DatabaseIntrospector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaBeansUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/util/JavaBeansUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="169" column="56" selection-start-line="169" selection-start-column="56" selection-end-line="169" selection-end-column="56" />
+            <state relative-caret-position="229">
+              <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -240,8 +115,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -281,64 +156,66 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/generator-swf" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/Plugin.java" root0="SKIP_INSPECTION" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/JavaTypeResolver.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/types/JavaTypeResolverDefaultImpl.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/GeneratedFile.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/JavaFormatter.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/GeneratedJavaFile.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/XmlFormatter.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/GeneratedXmlFile.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InnerInterface.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Interface.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/OutputUtilities.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/log4j2/Log4j2LoggerImpl.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/log4j2/Log4j2LoggingLogFactory.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/log4j2/Log4j2Impl.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/nologging/NoLoggingImpl.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/nologging/NoLoggingLogFactory.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/slf4j/Slf4jImpl.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/slf4j/Slf4jLocationAwareLoggerImpl.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/slf4j/Slf4jLoggerImpl.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/slf4j/Slf4jLoggingLogFactory.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/CompilationUnit.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/TopLevelClass.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/Plugin.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/PluginAggregator.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/PluginConfiguration.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/ObjectFactory.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/MergeConstants.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaVisibility.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaElement.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/CommentGenerator.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/DefaultCommentGenerator.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/XMLConstants.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/ShellCallback.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/DefaultShellCallback.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/NullProgressCallback.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/DomWriter.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/XmlFileMergerJaxp.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console.sql" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JDBCConnectionConfiguration.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JavaModelGeneratorConfiguration.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/Context.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/MyBatisGenerator.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/Configuration.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/PropertyRegistry.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Field.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaDomUtils.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InitializationBlock.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/TypeParameter.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Parameter.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Method.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InnerEnum.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InnerClass.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/IntrospectedColumn.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/xml/Elemetn.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/xml/Element.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/xml/Attribute.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/xml/Document.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/xml/TextElement.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/xml/XmlElement.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/PropertyHolder.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/ColumnOverride.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/IgnoredColumn.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/db/DatabaseDialects.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/db/ActualTableName.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/GeneratedKey.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/ModelType.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/DomainObjectRenamingRule.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/ColumnRenamingRule.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/IgnoredColumnException.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/IgnoredColumnPattern.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/TableConfiguration.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/LogFactory.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/db/DatabaseIntrospector.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_1.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_83.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_79.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_103.sql" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/FullyQualifiedTable.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JDBCConnectionConfiguration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/TypePropertyHolder.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/ConnectionFactoryConfiguration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/SqlMapGeneratorConfiguration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JavaTypeResolverConfiguration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JavaModelGeneratorConfiguration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JavaClientGeneratorConfiguration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/Context.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/CommentGeneratorConfiguration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/CommentGenerator.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/util/JavaBeansUtil.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedColumn.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/ListUtilities.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/Rules.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/BaseRules.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedTable.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/ConditionalModelRules.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/FlatModelRules.java" />
-        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/HierarchicalModelRules.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/RulesDelegate.java" />
       </list>
     </option>
@@ -352,9 +229,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$PROJECT_DIR$/../../repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.5.3/conf/settings.xml" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:/apache-maven-3.5.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -373,10 +250,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1853" />
-    <option name="y" value="-117" />
-    <option name="width" value="1412" />
-    <option name="height" value="877" />
+    <option name="x" value="431" />
+    <option name="y" value="43" />
+    <option name="width" value="1498" />
+    <option name="height" value="798" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -384,6 +261,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -434,7 +314,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
+              <item name="ant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generator-swf" type="b2602c69:ProjectViewProjectNode" />
@@ -457,39 +337,22 @@
               <item name="internal" type="462c0819:PsiDirectoryNode" />
               <item name="rules" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="generator-swf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="generator-swf" type="462c0819:PsiDirectoryNode" />
-              <item name="generator-swf-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/shanwfgegejia.com/Desktop/project/work/generator-swf/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/NullProgressCallback.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3632184" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -514,53 +377,35 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.InnerEnum" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -573,324 +418,196 @@
       <option name="presentableId" value="Default" />
       <updated>1532419786609</updated>
       <workItem from="1532419791859" duration="51683000" />
-      <workItem from="1533025235721" duration="45913000" />
-      <workItem from="1533260307475" duration="105346000" />
+      <workItem from="1533025235721" duration="21027000" />
+      <workItem from="1533134756181" duration="1282000" />
+      <workItem from="1533218521924" duration="620000" />
+      <workItem from="1533995164728" duration="1465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202942000" />
+    <option name="totallyTimeSpent" value="76077000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1853" y="-117" width="1412" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="431" y="43" width="1498" height="798" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23138686" side_tool="true" visible="true" weight="0.42272127" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.28414902" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="CDI" order="3" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="SQL Generator" sideWeight="0.49854013" weight="0.32893" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.28321168" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.76861316" visible="true" weight="0.42272127" />
-      <window_info anchor="bottom" id="Database Console" sideWeight="0.61167884" weight="0.32893" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15109488" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24826148" />
+      <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32893" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32893" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49791378" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5020862" side_tool="true" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3291536" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="7" visible="true" weight="0.32962447" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_69.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_70.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_74.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_75.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_76.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_73.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_72.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_71.sql">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/DomainObjectRenamingRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="660">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_77.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_78.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_80.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_84.sql">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/ColumnRenamingRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="660">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_85.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_86.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="329" column="37" lean-forward="true" selection-start-line="329" selection-start-column="37" selection-end-line="329" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5199#5200#0" expanded="true" />
-            <element signature="e#5224#5225#0" expanded="true" />
-            <element signature="e#5260#5261#0" expanded="true" />
-            <element signature="e#5288#5289#0" expanded="true" />
-            <element signature="e#6319#6320#0" expanded="true" />
-            <element signature="e#6358#6359#0" expanded="true" />
-            <element signature="e#8552#8553#0" expanded="true" />
-            <element signature="e#8594#8595#0" expanded="true" />
-            <element signature="e#8639#8640#0" expanded="true" />
-            <element signature="e#8680#8681#0" expanded="true" />
-            <element signature="e#8722#8723#0" expanded="true" />
-            <element signature="e#8760#8761#0" expanded="true" />
-            <element signature="e#10206#10207#0" expanded="true" />
-            <element signature="e#10242#10243#0" expanded="true" />
-            <element signature="e#10300#10301#0" expanded="true" />
-            <element signature="e#10350#10351#0" expanded="true" />
-            <element signature="e#10399#10400#0" expanded="true" />
-            <element signature="e#10444#10445#0" expanded="true" />
-            <element signature="e#15085#15086#0" expanded="true" />
-            <element signature="e#15157#15158#0" expanded="true" />
-            <element signature="e#15254#15255#0" expanded="true" />
-            <element signature="e#15307#15308#0" expanded="true" />
-            <element signature="e#15547#15548#0" expanded="true" />
-            <element signature="e#15585#15586#0" expanded="true" />
-            <element signature="e#15644#15645#0" expanded="true" />
-            <element signature="e#15691#15692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_91.sql">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/IgnoredColumnException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_90.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_89.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_88.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_92.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_82.sql">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/IgnoredColumnPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="622">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_93.sql">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JDBCConnectionConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="88" lean-forward="true" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+        <state relative-caret-position="620">
+          <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_94.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_96.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_95.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_97.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_98.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_99.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_102.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_87.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_100.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_101.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_103.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_83.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_81.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_79.sql">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/util/message/Messages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_104.sql">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/TypePropertyHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/ConnectionFactoryConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/SqlMapGeneratorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JavaTypeResolverConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JavaModelGeneratorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/JavaClientGeneratorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/CommentGeneratorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/IntrospectedColumn.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_71.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_84.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_85.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_91.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_82.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_93.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_94.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_95.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_97.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_102.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_87.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_101.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_103.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_83.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_81.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_79.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/180ed75e-0cc3-47a6-9cb2-86d3dcbdc7ec/console_104.sql" />
     <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/FullyQualifiedTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
-          <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2552#2553#0" expanded="true" />
-            <element signature="e#2597#2598#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-            <element signature="e#2686#2687#0" expanded="true" />
-            <element signature="e#2730#2731#0" expanded="true" />
-            <element signature="e#6685#6686#0" expanded="true" />
-            <element signature="e#6713#6714#0" expanded="true" />
-            <element signature="e#8327#8328#0" expanded="true" />
-            <element signature="e#8372#8373#0" expanded="true" />
-          </folding>
+          <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/db/DatabaseIntrospector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedColumn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
-          <caret line="124" column="34" lean-forward="true" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/util/JavaBeansUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="169" column="56" selection-start-line="169" selection-start-column="56" selection-end-line="169" selection-end-column="56" />
+          <caret line="124" column="34" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -898,22 +615,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/BaseRules.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-          <folding>
-            <element signature="e#7796#7797#0" expanded="true" />
-            <element signature="e#7835#7836#0" expanded="true" />
-            <element signature="e#8247#8248#0" expanded="true" />
-            <element signature="e#8281#8282#0" expanded="true" />
-          </folding>
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -921,12 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="29" column="85" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,16 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,96 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="248" column="5" lean-forward="true" selection-start-line="248" selection-start-column="5" selection-end-line="248" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3136#3137#0" expanded="true" />
-            <element signature="e#3181#3182#0" expanded="true" />
-            <element signature="e#3234#3235#0" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3359#3360#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
-            <element signature="e#3534#3535#0" expanded="true" />
-            <element signature="e#3592#3593#0" expanded="true" />
-            <element signature="e#6643#6644#0" expanded="true" />
-            <element signature="e#6682#6683#0" expanded="true" />
-            <element signature="e#6732#6733#0" expanded="true" />
-            <element signature="e#6781#6782#0" expanded="true" />
-            <element signature="e#6738#6739#0" expanded="true" />
-            <element signature="e#6772#6773#0" expanded="true" />
-            <element signature="e#7414#7415#0" expanded="true" />
-            <element signature="e#7480#7481#0" expanded="true" />
-            <element signature="e#7768#7769#0" expanded="true" />
-            <element signature="e#7802#7803#0" expanded="true" />
-            <element signature="e#7845#7846#0" expanded="true" />
-            <element signature="e#7889#7890#0" expanded="true" />
-            <element signature="e#7933#7934#0" expanded="true" />
-            <element signature="e#7977#7978#0" expanded="true" />
-            <element signature="e#8009#8010#0" expanded="true" />
-            <element signature="e#8037#8038#0" expanded="true" />
-            <element signature="e#8109#8110#0" expanded="true" />
-            <element signature="e#8144#8145#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-            <element signature="e#8302#8303#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8387#8388#0" expanded="true" />
-            <element signature="e#8475#8476#0" expanded="true" />
-            <element signature="e#8521#8522#0" expanded="true" />
-            <element signature="e#9532#9533#0" expanded="true" />
-            <element signature="e#9570#9571#0" expanded="true" />
-            <element signature="e#10854#10855#0" expanded="true" />
-            <element signature="e#10890#10891#0" expanded="true" />
-            <element signature="e#10949#10950#0" expanded="true" />
-            <element signature="e#10987#10988#0" expanded="true" />
-            <element signature="e#11050#11051#0" expanded="true" />
-            <element signature="e#11081#11082#0" expanded="true" />
-            <element signature="e#13557#13558#0" expanded="true" />
-            <element signature="e#13613#13614#0" expanded="true" />
-            <element signature="e#13695#13696#0" expanded="true" />
-            <element signature="e#13729#13730#0" expanded="true" />
-            <element signature="e#14304#14305#0" expanded="true" />
-            <element signature="e#14343#14344#0" expanded="true" />
-            <element signature="e#16917#16918#0" expanded="true" />
-            <element signature="e#16957#16958#0" expanded="true" />
-            <element signature="e#17053#17054#0" expanded="true" />
-            <element signature="e#17092#17093#0" expanded="true" />
-            <element signature="e#17656#17657#0" expanded="true" />
-            <element signature="e#17696#17697#0" expanded="true" />
-            <element signature="e#19636#19637#0" expanded="true" />
-            <element signature="e#19658#19659#0" expanded="true" />
-            <element signature="e#27324#27325#0" expanded="true" />
-            <element signature="e#27358#27359#0" expanded="true" />
-            <element signature="e#27415#27416#0" expanded="true" />
-            <element signature="e#27456#27457#0" expanded="true" />
-            <element signature="e#30514#30515#0" expanded="true" />
-            <element signature="e#30550#30551#0" expanded="true" />
-            <element signature="e#31582#31583#0" expanded="true" />
-            <element signature="e#31612#31613#0" expanded="true" />
-            <element signature="e#31646#31647#0" expanded="true" />
-            <element signature="e#31676#31677#0" expanded="true" />
-            <element signature="e#31722#31723#0" expanded="true" />
-            <element signature="e#31760#31761#0" expanded="true" />
-            <element signature="e#31796#31797#0" expanded="true" />
-            <element signature="e#31828#31829#0" expanded="true" />
-            <element signature="e#31878#31879#0" expanded="true" />
-            <element signature="e#31920#31921#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,67 +653,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="n#resources#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#profiles#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/OutputUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/util/JavaBeansUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="183" column="35" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/TableConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/CommentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="878" column="1" selection-start-line="878" selection-start-column="1" selection-end-line="878" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/IgnoredColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/RulesDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1739#1740#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1875#1876#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#2005#2006#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2416#2417#0" expanded="true" />
-            <element signature="e#2479#2480#0" expanded="true" />
-            <element signature="e#2551#2552#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
-            <element signature="e#2688#2689#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-            <element signature="e#2855#2856#0" expanded="true" />
-            <element signature="e#2967#2968#0" expanded="true" />
-            <element signature="e#2997#2998#0" expanded="true" />
-            <element signature="e#3113#3114#0" expanded="true" />
-            <element signature="e#3146#3147#0" expanded="true" />
-            <element signature="e#3307#3308#0" expanded="true" />
-            <element signature="e#3357#3358#0" expanded="true" />
-            <element signature="e#3419#3420#0" expanded="true" />
-            <element signature="e#3444#3445#0" expanded="true" />
-            <element signature="e#3533#3534#0" expanded="true" />
-            <element signature="e#3587#3588#0" expanded="true" />
-            <element signature="e#3644#3645#0" expanded="true" />
-            <element signature="e#3665#3666#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="229">
+          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1125,8 +730,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.5" />
+                <option value="0.3632184" />
               </list>
             </option>
           </splitter-proportions>
@@ -1138,7 +742,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3632184" />
               </list>
             </option>
           </splitter-proportions>
@@ -1161,7 +765,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3632184" />
               </list>
             </option>
           </splitter-proportions>
@@ -1186,7 +790,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3632184" />
               </list>
             </option>
           </splitter-proportions>
