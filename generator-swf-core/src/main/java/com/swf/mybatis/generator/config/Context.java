@@ -3,8 +3,10 @@ package com.swf.mybatis.generator.config;
 import com.swf.mybatis.generator.api.*;
 import com.swf.mybatis.generator.api.dom.xml.Attribute;
 import com.swf.mybatis.generator.api.dom.xml.XmlElement;
+import com.swf.mybatis.generator.internal.JDBCConnectionFactory;
 import com.swf.mybatis.generator.internal.ObjectFactory;
 import com.swf.mybatis.generator.internal.PluginAggregator;
+import com.swf.mybatis.generator.internal.db.DatabaseIntrospector;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -135,7 +137,7 @@ public class Context extends PropertyHolder {
             errors.add(getString("ValidationError.25", id));
         }
 
-        if(it != null && it.requiresXmlGenerator()) {
+        if(it != null && it.requiresXMLGenerator()) {
             if (sqlMapGeneratorConfiguration == null) {
                 errors.add(getString("ValidationError.9", id));
             } else {
@@ -333,10 +335,10 @@ public class Context extends PropertyHolder {
             callback.startTask(getString("Progress.0"));
             connection = getConnection();
 
-            DatabaseIntrospector databaseIntrospector = new Databaseintrospector(this, connection.getMetaData(), javaTypeResolver, warnings);
+            DatabaseIntrospector databaseIntrospector = new DatabaseIntrospector(this, connection.getMetaData(), javaTypeResolver, warnings);
 
             for (TableConfiguration tc : tableConfigurations) {
-                String tableName = composeFullyQualifiedTableName(tc.getCatalog, tc.getSchema(), tc.getTableName(), '.');
+                String tableName = composeFullyQualifiedTableName(tc.getCatalog(), tc.getSchema(), tc.getTableName(), '.');
 
                 if (fullyQualifiedTableNames != null && fullyQualifiedTableNames.size() > 0 && !fullyQualifiedTableNames.contains(tableName)) {
                     continue;
@@ -400,7 +402,7 @@ public class Context extends PropertyHolder {
     private Connection getConnection() throws SQLException {
         ConnectionFactory connectionFactory;
         if (jdbcConnectionConfiguration != null) {
-            connectionFactory = new JDBCCnnectionFactory(jdbcConnectionConfiguration);
+            connectionFactory = new JDBCConnectionFactory(jdbcConnectionConfiguration);
         } else {
             connectionFactory = ObjectFactory.createConnectionFactory(this);
         }
@@ -417,7 +419,7 @@ public class Context extends PropertyHolder {
         }
     }
 
-    private boolean autoDelimitKeywords() {
+    public boolean autoDelimitKeywords() {
         return autoDelimitkeywords != null && autoDelimitkeywords.booleanValue();
     }
 

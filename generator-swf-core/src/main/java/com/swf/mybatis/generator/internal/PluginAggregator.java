@@ -21,6 +21,8 @@ public final class PluginAggregator implements Plugin {
         plugins = new ArrayList<>();
     }
 
+    public void addPlugin(Plugin plugin){plugins.add(plugin);}
+
     @Override
     public void setContext(Context context) {
         throw new UnsupportedOperationException();

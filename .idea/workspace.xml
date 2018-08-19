@@ -101,11 +101,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/RulesDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
               <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+=======
+      <file leaf-file-name="IntrospectedTableMyBatis3Impl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3Impl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLMapperGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/XMLMapperGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <folding>
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntrospectedTableMyBatis3SimpleImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3SimpleImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleXMLMapperGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/SimpleXMLMapperGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MixedMapperGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/MixedMapperGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
             </state>
           </provider>
         </entry>
@@ -123,24 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addModelClassComment</find>
-      <find>addClassComment</find>
-      <find>addGeneral</find>
-      <find>addGeneralMethodComment</find>
-      <find>GeneralMethodAnnotation</find>
-      <find>addGeneralMethodAnnotation</find>
-      <find>getGeneratedAnnotation</find>
-      <find>write</find>
-      <find>NamedNodeMap</find>
-      <find>PluginConfiguration</find>
-      <find>getIntrospectionSteps</find>
-      <find>XmlFileMergerJaxp</find>
-      <find>ignoredColumns</find>
-      <find>TABLE__RUNTIME_TABLE_NAME</find>
-      <find>selectByExamplStatementEnabled</find>
-      <find>introspectTables</find>
-      <find>FullyQualified</find>
-      <find>getJavaBeansGetter</find>
       <find>fullyQualifiedTable</find>
       <find>calculateModelAttibutes</find>
       <find>setSqlMapFullyQualifiedRuntimeTableName</find>
@@ -151,9 +194,30 @@
       <find>generateSelectByExampleWithoutBLOBs</find>
       <find>getMyBatis3XmlMapperFileName</find>
       <find>generateBaseColumnList</find>
-      <find>getTableConfigurationProperty</find>
       <find>generateResultMapWithBLOBs</find>
+      <find>getTableConfigurationProperty</find>
+      <find>getJavaBeansGetter</find>
+      <find>composeFullyQualifiedTableName</find>
+      <find>addPlugin</find>
+      <find>databaseIntrospector</find>
+      <find>requiresXMLGenerator</find>
+      <find>getValidPropertyName</find>
+      <find>get</find>
+      <find>introspectTables</find>
+      <find>selectByExamplStatementEnabled</find>
+      <find>extraProperties</find>
+      <find>XMLParseException</find>
+      <find>DefaultJavaFormatter</find>
+      <find>TopLevelEnumeration</find>
+      <find>getTypeParameters</find>
+      <find>getStaticImports</find>
+      <find>modelGetterMethodGenerated</find>
+      <find>modelSetterMethodGenerated</find>
+      <find>addResultMapWithoutBLOBsElement</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/ant</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,6 +230,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/log4j2/Log4j2LoggerImpl.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/log4j2/Log4j2LoggingLogFactory.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/logging/log4j2/Log4j2Impl.java" />
@@ -216,7 +281,59 @@
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/CommentGeneratorConfiguration.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/CommentGenerator.java" />
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/util/JavaBeansUtil.java" />
+=======
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/FullyQualifiedTable.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/util/JavaBeansUtil.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedColumn.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/ListUtilities.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/Rules.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/BaseRules.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/ConditionalModelRules.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/FlatModelRules.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/HierarchicalModelRules.java" />
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
         <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/RulesDelegate.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaReservedWords.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/util/message/Messages.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/db/SqlReservedWords.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/db/DatabaseIntrospector.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/PluginAggregator.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedTable.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/ConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/JDBCConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/Context.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/ant/AntProgressCallback.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/xml/ParserEntityResolver.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/xml/ParserErrorHandler.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/TableConfiguration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/xml/MyBatisGeneratorConfigurationParser.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/xml/ConfigurationParser.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/ant/GeneratorAntTask.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/DefaultJavaFormatter.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/xml/DefaultXmlFormatter.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/DefaultXmlFormatter.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InitializationBlock.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Interface.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaVisibility.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Method.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Parameter.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/CompilationUnit.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/TopLevelEnumeration.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/DAOMethodNameCalculator.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/PluginAdapter.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/Plugin.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/VerboseProgressCallback.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/ShellRunner.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/MyBatis3FormattingUtilities.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/AbstractGenerator.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/AbstractJavaGenerator.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/AbstractXmlGenerator.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/AbstractJavaClientGenerator.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/XMLMapperGenerator.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3Impl.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3SimpleImpl.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/SimpleXMLMapperGenerator.java" />
+        <option value="$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/MixedMapperGenerator.java" />
       </list>
     </option>
   </component>
@@ -250,10 +367,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="501" />
     <option name="y" value="17" />
     <option name="width" value="1498" />
     <option name="height" value="798" />
+=======
+    <option name="x" value="2173" />
+    <option name="y" value="-157" />
+    <option name="width" value="1412" />
+    <option name="height" value="877" />
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -324,7 +448,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="codegen" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generator-swf" type="b2602c69:ProjectViewProjectNode" />
@@ -334,13 +459,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="rules" type="462c0819:PsiDirectoryNode" />
+              <item name="codegen" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlmapper" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="generator-swf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generator-swf" type="462c0819:PsiDirectoryNode" />
+              <item name="generator-swf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generator-swf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generator-swf" type="462c0819:PsiDirectoryNode" />
+              <item name="generator-swf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,6 +506,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3632184" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/generator-swf-core/src/main/resources/org.mybatis.generator.internal.util.message" />
+      <recent name="$PROJECT_DIR$/generator-swf-core/src/main/resources/org.mybatis.generator.config.xml" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -373,7 +532,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.swf.mybatis.generator.api.dom.java.*" />
+          <option name="PATTERN" value="com.swf.mybatis.generator.api.dom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,14 +577,21 @@
       <option name="presentableId" value="Default" />
       <updated>1532419786609</updated>
       <workItem from="1532419791859" duration="51683000" />
+<<<<<<< HEAD
       <workItem from="1533025235721" duration="21027000" />
       <workItem from="1533134756181" duration="1282000" />
       <workItem from="1533218521924" duration="620000" />
       <workItem from="1533995164728" duration="1465000" />
+=======
+      <workItem from="1533025235721" duration="45913000" />
+      <workItem from="1533260307475" duration="106276000" />
+      <workItem from="1534125340285" duration="52320000" />
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="76077000" />
   </component>
   <component name="ToolWindowManager">
@@ -439,6 +605,46 @@
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
+=======
+    <option name="totallyTimeSpent" value="256192000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2173" y="-157" width="1412" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23211679" side_tool="true" visible="true" weight="0.2655218" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.28414902" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.28321168" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.76788324" visible="true" weight="0.2655218" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19927007" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32893" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32893" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.61167884" weight="0.32893" />
+      <window_info anchor="bottom" id="SQL Generator" order="8" sideWeight="0.49854013" weight="0.32893" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -475,6 +681,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -660,12 +867,370 @@
           <folding>
             <element signature="n#resources#0;n#build#0;n#project#0;n#!!top" />
             <element signature="n#profiles#0;n#project#0;n#!!top" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/FullyQualifiedJavaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5356">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InitializationBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2536">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Interface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-676">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InnerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaDomUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaReservedWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/JavaVisibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="266" lean-forward="true" selection-start-line="266" selection-end-line="266" />
+          <folding>
+            <element signature="method#Method#1;class#Method#0" />
+            <element signature="method#getFormattedContent#0;class#Method#0" />
+            <element signature="e#6427#6428#0" expanded="true" />
+            <element signature="e#6464#6465#0" expanded="true" />
+            <element signature="e#7228#7229#0" expanded="true" />
+            <element signature="e#7265#7266#0" expanded="true" />
+            <element signature="e#7323#7324#0" expanded="true" />
+            <element signature="e#7369#7370#0" expanded="true" />
+            <element signature="e#7402#7403#0" expanded="true" />
+            <element signature="e#7433#7434#0" expanded="true" />
+            <element signature="e#7479#7480#0" expanded="true" />
+            <element signature="e#7513#7514#0" expanded="true" />
+            <element signature="e#7547#7548#0" expanded="true" />
+            <element signature="e#7579#7580#0" expanded="true" />
+            <element signature="e#7627#7628#0" expanded="true" />
+            <element signature="e#7663#7664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/Parameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/PrimitiveTypeWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/TopLevelClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/TypeParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/OutputUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/InnerEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1891">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/CompilationUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/java/TopLevelEnumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="74" column="78" selection-start-line="74" selection-start-column="78" selection-end-line="74" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#2742#2743#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+            <element signature="e#2858#2859#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+            <element signature="e#3113#3114#0" expanded="true" />
+            <element signature="e#3148#3149#0" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+            <element signature="e#3250#3251#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3384#3385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/CommentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/DAOMethodNameCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="32" column="89" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/FullyQualifiedTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2335">
+          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/GeneratedFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/GeneratedJavaFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/GeneratedXmlFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11506">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/JavaTypeResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/JavaFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/MyBatisGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="235" column="22" lean-forward="true" selection-start-line="235" selection-start-column="22" selection-end-line="235" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="115" column="38" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/PluginAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="304" column="45" selection-start-line="304" selection-start-column="19" selection-end-line="304" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/ProgressCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/ShellCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/VerboseProgressCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/xml/ConfigurationParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/ShellRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="196" column="26" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4585#4586#0" expanded="true" />
+            <element signature="e#4621#4622#0" expanded="true" />
+            <element signature="e#4671#4672#0" expanded="true" />
+            <element signature="e#4707#4708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/javamapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/MyBatis3FormattingUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="111" column="44" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/dom/OutputUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="104">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
@@ -696,11 +1261,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+=======
+        <state relative-caret-position="149">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/api/IntrospectedTable.java">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/AbstractGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/AbstractJavaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/AbstractXmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/config/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="274" column="28" selection-start-line="274" selection-start-column="28" selection-end-line="274" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/AbstractJavaClientGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/XMLMapperGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="271">
           <caret line="878" column="1" selection-start-line="878" selection-start-column="1" selection-end-line="878" selection-end-column="1" />
         </state>
@@ -710,13 +1336,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+=======
+        <state relative-caret-position="114">
+          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/internal/rules/RulesDelegate.java">
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3SimpleImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/SimpleXMLMapperGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="229">
           <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+=======
+        <state relative-caret-position="224">
+          <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+>>>>>>> 8390d2260c1c5dd788aa9a19b7c87c8f42e8434d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-swf-core/src/main/java/com/swf/mybatis/generator/codegen/mybatis3/xmlmapper/MixedMapperGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>

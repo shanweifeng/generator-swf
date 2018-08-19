@@ -21,7 +21,7 @@ public class TableConfiguration extends PropertyHolder {
 
     private boolean selectByPrimaryKeyStatementEnabled;
 
-    private boolean selectByExamplStatementEnabled;
+    private boolean selectByExampleStatementEnabled;
 
     private boolean updateByPrimaryKeyStatementEnabled;
 
@@ -55,7 +55,7 @@ public class TableConfiguration extends PropertyHolder {
 
     private  ModelType modelType;
 
-    private boolean wildcardExcapingEnabled;
+    private boolean wildcardEscapingEnabled;
 
     private String configuredModelType;
 
@@ -81,7 +81,7 @@ public class TableConfiguration extends PropertyHolder {
 
         insertStatementEnabled = true;
         selectByPrimaryKeyStatementEnabled = true;
-        selectByExamplStatementEnabled = true;
+        selectByExampleStatementEnabled = true;
         updateByPrimaryKeyStatementEnabled = true;
         updateByExampleStatementEnabled = true;
         deleteByPrimaryKeyStatementEnabled = true;
@@ -173,12 +173,12 @@ public class TableConfiguration extends PropertyHolder {
         return result;
     }
 
-    public boolean isSelectByExamplStatementEnabled() {
-        return selectByExamplStatementEnabled;
+    public boolean isSelectByExampleStatementEnabled() {
+        return selectByExampleStatementEnabled;
     }
 
-    public void setSelectByExamplStatementEnabled(boolean selectByExamplStatementEnabled) {
-        this.selectByExamplStatementEnabled = selectByExamplStatementEnabled;
+    public void setSelectByExampleStatementEnabled(boolean selectByExampleStatementEnabled) {
+        this.selectByExampleStatementEnabled = selectByExampleStatementEnabled;
     }
 
     public ColumnOverride getColumnOverride(String columnName) {
@@ -237,7 +237,7 @@ public class TableConfiguration extends PropertyHolder {
     }
 
     public boolean areAnyStatementsEnabled() {
-        return selectByExamplStatementEnabled || selectByPrimaryKeyStatementEnabled
+        return selectByExampleStatementEnabled || selectByPrimaryKeyStatementEnabled
                 || insertStatementEnabled || updateByExampleStatementEnabled
                 || updateByPrimaryKeyStatementEnabled ||deleteByExampleStatementEnabled
                 || deleteByPrimaryKeyStatementEnabled ||countByExampleStatementEnabled;
@@ -298,12 +298,12 @@ public class TableConfiguration extends PropertyHolder {
         this.modelType = ModelType.getModelType(configuredModelType);
     }
 
-    public boolean isWildcardExcapingEnabled() {
-        return wildcardExcapingEnabled;
+    public boolean isWildcardEscapingEnabled() {
+        return wildcardEscapingEnabled;
     }
 
-    public void setWildcardExcapingEnabled(boolean wildcardExcapingEnabled) {
-        this.wildcardExcapingEnabled = wildcardExcapingEnabled;
+    public void setWildcardEscapingEnabled(boolean wildcardEscapingEnabled) {
+        this.wildcardEscapingEnabled = wildcardEscapingEnabled;
     }
 
     public XmlElement toXmlElement() {
@@ -333,7 +333,7 @@ public class TableConfiguration extends PropertyHolder {
             xmlElement.addAttribute(new Attribute("enableSelectByPrimaryKey", "false"));
         }
 
-        if (!selectByExamplStatementEnabled) {
+        if (!selectByExampleStatementEnabled) {
             xmlElement.addAttribute(new Attribute("enableSelectByExample", "false"));
         }
 
@@ -369,7 +369,7 @@ public class TableConfiguration extends PropertyHolder {
             xmlElement.addAttribute(new Attribute("modelType", configuredModelType));
         }
 
-        if (wildcardExcapingEnabled) {
+        if (wildcardEscapingEnabled) {
             xmlElement.addAttribute(new Attribute("escapeWildcards","true"));
         }
 
@@ -461,7 +461,7 @@ public class TableConfiguration extends PropertyHolder {
             generatedKey.validate(errors, fqTableName);
         }
 
-        if (isTrue(getProperty(PropertyRegistry.TABLE_USE_COLUMN_INDEXES)) && selectByExamplStatementEnabled
+        if (isTrue(getProperty(PropertyRegistry.TABLE_USE_COLUMN_INDEXES)) && selectByExampleStatementEnabled
                 && selectByPrimaryKeyStatementEnabled) {
             boolean queryId1Set = stringHasValue(selectByExampleQueryId);
             boolean queryId2Set = stringHasValue(selectByPrimaryKeyQueryId);
