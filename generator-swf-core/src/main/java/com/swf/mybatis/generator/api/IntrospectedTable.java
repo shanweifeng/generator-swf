@@ -64,7 +64,7 @@ public abstract class IntrospectedTable {
 
     protected Rules rules;
 
-    protected List<IntrospectedColumn> primaryKeyColumn;
+    protected List<IntrospectedColumn> primaryKeyColumns;
 
     protected List<IntrospectedColumn> baseColumns;
 
@@ -83,7 +83,7 @@ public abstract class IntrospectedTable {
     public IntrospectedTable(TargetRuntime targetRuntime){
         super();
         this.targetRuntime = targetRuntime;
-        primaryKeyColumn = new ArrayList<>();
+        primaryKeyColumns = new ArrayList<>();
         baseColumns = new ArrayList<>();
         blobColumns = new ArrayList<>();
         attributes = new HashMap<>();
@@ -111,7 +111,7 @@ public abstract class IntrospectedTable {
             return null;
         } else {
             // search primary key column
-            for (IntrospectedColumn introspectedColumn : primaryKeyColumn) {
+            for (IntrospectedColumn introspectedColumn : primaryKeyColumns) {
                 if (introspectedColumn.isColumnNameDelimited()) {
                     if (introspectedColumn.getActualColumnName().equals(columnName)) {
                         return introspectedColumn;
@@ -153,7 +153,7 @@ public abstract class IntrospectedTable {
     public boolean hasJDBCDateColumns() {
         boolean rc = false;
 
-        for (IntrospectedColumn introspectedColumn : primaryKeyColumn) {
+        for (IntrospectedColumn introspectedColumn : primaryKeyColumns) {
             if (introspectedColumn.isJDBCDateColumn()) {
                 rc = true;
                 break;
@@ -173,7 +173,7 @@ public abstract class IntrospectedTable {
 
     public boolean hasJDBCTimeColumns() {
         boolean rc = false;
-        for (IntrospectedColumn introspectedColumn : primaryKeyColumn) {
+        for (IntrospectedColumn introspectedColumn : primaryKeyColumns) {
             if (introspectedColumn.isJDBCTimeColumn()) {
                 rc = true;
                 break;
@@ -191,13 +191,13 @@ public abstract class IntrospectedTable {
         return rc;
     }
 
-    public List<IntrospectedColumn> getPrimaryKeyColumn() {
-        return primaryKeyColumn;
+    public List<IntrospectedColumn> getPrimaryKeyColumns() {
+        return primaryKeyColumns;
     }
 
 
     public boolean hasPrimaryKeyColumns() {
-        return primaryKeyColumn.size() > 0;
+        return primaryKeyColumns.size() > 0;
     }
 
     public List<IntrospectedColumn> getBaseColumns() {
@@ -206,7 +206,7 @@ public abstract class IntrospectedTable {
 
     public List<IntrospectedColumn> getAllColumns() {
         List<IntrospectedColumn> answer = new ArrayList<>();
-        answer.addAll(primaryKeyColumn);
+        answer.addAll(primaryKeyColumns);
         answer.addAll(baseColumns);
         answer.addAll(blobColumns);
         return answer;
@@ -214,13 +214,13 @@ public abstract class IntrospectedTable {
 
     public List<IntrospectedColumn> getNonBLOBColumns() {
         List<IntrospectedColumn> answer = new ArrayList<>();
-        answer.addAll(primaryKeyColumn);
+        answer.addAll(primaryKeyColumns);
         answer.addAll(baseColumns);
         return answer;
     }
 
     public int getNonBLOBColumnCount() {
-        return primaryKeyColumn.size() + baseColumns.size();
+        return primaryKeyColumns.size() + baseColumns.size();
     }
 
     public List<IntrospectedColumn> getNonPrimaryKeyColumns() {
@@ -279,7 +279,7 @@ public abstract class IntrospectedTable {
     }
 
     public boolean hasAnyColumns() {
-        return primaryKeyColumn.size() > 0 || baseColumns.size() > 0
+        return primaryKeyColumns.size() > 0 || baseColumns.size() > 0
                 || blobColumns.size() > 0;
     }
 
@@ -311,7 +311,7 @@ public abstract class IntrospectedTable {
         while (iter.hasNext()) {
             IntrospectedColumn introspectedColumn =iter.next();
             if (introspectedColumn.getActualColumnName().equals(columnName)) {
-                primaryKeyColumn.add(introspectedColumn);
+                primaryKeyColumns.add(introspectedColumn);
                 iter.remove();
                 found = true;
                 break;
@@ -323,7 +323,7 @@ public abstract class IntrospectedTable {
             while (iter.hasNext()) {
                 IntrospectedColumn introspectedColumn = iter.next();
                 if (introspectedColumn.getActualColumnName().equals(columnName)) {
-                    primaryKeyColumn.add(introspectedColumn);
+                    primaryKeyColumns.add(introspectedColumn);
                     iter.remove();
                     found = true;
                     break;
